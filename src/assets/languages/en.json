@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "presentation": "Hi, I am Alexandra Ramirez",
+    "description-first-part": "Student of ",
+    "highlighted": "Information Systems Engineering, Frontend developer, and web designer with experience in UX/UI design ",
+    "description-second-part": "from Lima, Peru. My goal is to continue contributing to the creation of inclusive and accessible digital experiences for all users.",
+    "button-download": "Download CV",
+    "button-download-ATS": "Download ATS CV"
+  },
+  "about-me": {
+    "title": "About me",
+    "description": "I am a student of Information Systems Engineering at the Universidad Peruana de Ciencias Aplicadas (UPC). Since I started my training, I have developed a passion for ",
+    "highlighted-one": "creating functional, attractive, and easy-to-use digital experiences.",
+    "description-first-part": "I am a ",
+    "highlighted-two": "proactive and responsible person, with ease for teamwork and a constant focus on problem-solving. ",
+    "description-second-part": "I am determined to continue growing in my career, exploring different areas and combining my technical skills with a constant passion for learning.",
+    "name-career-one": "Information Systems Engineering (7th cycle)",
+    "date-one": "August 2021 - Present",
+    "name-career-two": "Frontend Development Career Angular",
+    "date-two": "January 2023 - February 2024",
+    "name-career-three": "Frontend Development Career React",
+    "date-three": "January 2023 - September 2024"
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": "Programming languages:",
+    "tools": "Development tools:",
+    "frameworks": "Frameworks / Libraries:",
+    "databases": "Databases / Cloud services:",
+    "soft-skills": "Soft skills:",
+    "adaptability": "Adaptability",
+    "communication": "Assertive communication",
+    "problem-resolution": "Problem resolution",
+    "teamwork": "Teamwork",
+    "creativity": "Creativity",
+    "autonomy": "Autonomy"
+  },
+  "projects": {
+    "title": "Projects",
+    "name-one": "Pachamama's Kitchen - E-commerce web platform for Peruvian food",
+    "description-one": "Personal project of an e-commerce web platform designed for selling dishes and drinks from a fictional Peruvian restaurant. It allows the user to use a shopping cart, go through the ordering process, and make reservations. It also features a global search for the food the customer is looking for.",
+    "name-two": "Made in Peru - E-commerce web platform for Peruvian crafts",
+    "description-two": "University project of an e-commerce web platform using a custom style (without the use of frameworks). It allows the user to use filters, a shopping cart, product comments, the process of purchasing a product, and an interactive chatbot.",
+    "name-three": "Made in Peru - Web platform with administrative view and e-commerce for Peruvian crafts",
+    "description-three": "University project of a web platform for Peruvian crafts. The Angular framework was integrated into both views. The platform now includes the previous functionalities, and in the administrative view, products, artisans, tourist places, regions, etc. can be added, edited, viewed, and deleted.",
+    "name-four": "HogwartsCourses - Web platform with an administrative view for user and course management",
+    "description-four": "Personal project of an administrative web platform developed with Angular for managing users, courses, and enrollments. You can also log in, and depending on the role (admin, teacher, student), perform a specific action. Users, courses, or enrollments can be added, viewed, edited, and deleted.",
+    "name-five": "MangaWorld - E-commerce web platform for Japanese comics",
+    "description-five": "Personal project of an e-commerce web platform designed for purchasing Japanese comics. Users can use advanced filters and a search engine. The platform features a shopping cart where selected products are saved, even if the user closes the browser (localStorage).",
+    "name-six": "BetterOption - Real estate offer web platform",
+    "description-six": "Web landing page of a platform designed to facilitate the search and acquisition of real estate properties. Each property has a detail page, features static filters, and a static paginator. It presents forms for contacting the provider and in the contact section."
+  },
+  "designs": {
+    "title": "Designs",
+    "button": "See More"
+  },
+  "footer": {
+    "title": "© 2024. All rights reserved"
+  }
+}

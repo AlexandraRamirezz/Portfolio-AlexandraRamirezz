@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "presentation": "Hola, soy Alexandra Ramirez",
+    "description-first-part": "Estudiante de ",
+    "highlighted": "Ingeniería de Sistemas de Información, desarrolladora Frontend y diseñadora web con experiencia en diseño UX/UI ",
+    "description-second-part": "de Lima, Perú. Mi objetivo es seguir contribuyendo a la creación de experiencias digitales inclusivas y accesibles para todos los usuarios.",
+    "button-download": "Descargar CV",
+    "button-download-ATS": "Descargar CV ATS"
+  },
+  "about-me": {
+    "title": "Sobre mí",
+    "description": "Soy estudiante de la carrera de Ingeniería de Sistemas de Información en la Universidad Peruana de Ciencias Aplicadas (UPC). Desde que comencé mi formación, he desarrollado una pasión por ",
+    "highlighted-one": "la creación de experiencias digitales funcionales, atractivas y fáciles de usar.",
+    "description-first-part": "Soy una persona ",
+    "highlighted-two": "proactiva y responsable, con facilidad para el trabajo en equipo y un enfoque constante en la resolución de problemas. ",
+    "description-second-part": "Estoy decidida a seguir creciendo en mi carrera, explorando diferentes áreas y combinando mis habilidades técnicas con una constante pasión por aprender.",
+    "name-career-one": "Ingeniería de Sistemas de Información (7mo ciclo)",
+    "date-one": "Agosto 2021 - Actualidad",
+    "name-career-two": "Carrera de Desarrollo Frontend Angular",
+    "date-two": "Enero 2023 - Febrero 2024",
+    "name-career-three": "Carrera de Desarrollo Frontend React",
+    "date-three": "Enero 2023 - Septiembre 2024"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "languages": "Lenguajes de programación:",
+    "tools": "Herramientas de desarrollo:",
+    "frameworks": "Frameworks / Librerías:",
+    "databases": "Bases de datos / Servicios en la nube:",
+    "soft-skills": "Habilidades blandas:",
+    "adaptability": "Capacidad de adaptación",
+    "communication": "Comunicación asertiva",
+    "problem-resolution": "Resolución de problemas",
+    "teamwork": "Trabajo en equipo",
+    "creativity": "Creatividad",
+    "autonomy": "Autonomía"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "name-one": "Pachamama's Kitchen - Plataforma web e-commerce de comidas peruanas",
+    "description-one": "Proyecto personal de una plataforma web e-commerce diseñada para la venta de platos y bebidas peruanas de un restaurante ficticio. Permite al usuario usar un carrito de compras, realizar el proceso de pedido y hacer reservas. Además, posee un buscador global de la comida que el cliente esté buscando.",
+    "name-two": "Hecho en Perú - Plataforma web e-commerce de artesanías peruanas",
+    "description-two": "Proyecto universitario de una plataforma web e-commerce con el uso de un estilo propio (sin el uso de frameworks). Permite al usuario usar filtros, un carrito de compras, comentarios por producto, proceso de compra de un producto y un chatbot interactivo.",
+    "name-three": "Hecho en Perú - Plataforma web con vista administrativa y e-commerce de artesanías peruanas",
+    "description-three": "Proyecto universitario de una plataforma web de artesanías peruanas. Se integró en ambas vistas el framework Angular. La plataforma ahora incluye las funcionalidades anteriores y, en la vista administrativa, se pueden añadir, editar, ver y eliminar productos, artesanos, lugares turísticos, regiones, etc.",
+    "name-four": "HogwartsCourses - Plataforma web con vista administrativa de gestión de usuarios y cursos",
+    "description-four": "Proyecto personal de una plataforma web administrativa desarrollada con Angular para la gestión de usuarios, cursos e inscripciones. Además, puedes iniciar sesión y dependiendo del rol (admin, teacher, student) una acción en particular. Se puede añadir, ver, editar y eliminar usuarios, cursos o inscripciones.",
+    "name-five": "MangaWorld - Plataforma web e-commerce de cómics japoneses",
+    "description-five": "Proyecto personal de una plataforma web e-commerce diseñada para la compra de cómics japoneses. Los usuarios pueden utilizar filtros avanzados y un buscador. La plataforma cuenta con un carrito de compras donde se guardan los productos seleccionados, incluso si el usuario cierra el navegador (localStorage).",
+    "name-six": "BetterOption - Plataforma web de ofertas inmobiliarias",
+    "description-six": "Landing page web de una plataforma diseñada para facilitar la búsqueda y adquisición de propiedades inmobiliarias. Cada inmueble tiene una página de detalle, cuenta con filtros estáticos y un paginator estático. Presenta formularios para la solicitud de contacto al proveedor y en el contacto."
+  },
+  "designs": {
+    "title": "Diseños",
+    "button": "Ver más"
+  },
+  "footer": {
+    "title": "© 2024. Todos los derechos reservados"
+  }
+}
