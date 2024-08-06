@@ -19,7 +19,7 @@
     "name-career-two": "Carrera de Desarrollo Frontend Angular",
     "date-two": "Enero 2023 - Febrero 2024",
     "name-career-three": "Carrera de Desarrollo Frontend React",
-    "date-three": "Enero 2023 - Septiembre 2024"
+    "date-three": "Enero 2023 - Actualidad"
   },
   "skills": {
     "title": "Habilidades",
@@ -56,5 +56,8 @@
   },
   "footer": {
     "title": "© 2024. Todos los derechos reservados."
+  },
+  "message": {
+    "copy": "Copiado!"
   }
 }
