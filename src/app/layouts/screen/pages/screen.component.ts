@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './screen.component.scss',
 })
 export class ScreenComponent {
-
   constructor() { }
-
 }
