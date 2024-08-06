@@ -1,0 +1,44 @@
+.title-skills {
+  padding-bottom: 1.7rem;
+  color: var(--second-color);
+}
+
+.skills-container {
+  margin: 0 7rem;
+  padding: 2rem 3rem;
+  background-color: var(--third-color);
+}
+
+.skills-all {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.per-skill {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.per-skill p {
+  display: inline;
+}
+
+.items-per-skills {
+  display: flex;
+  gap: 12px;
+}
+
+.items-per-skills p {
+  display: inline;
+  color: var(--second-color);
+  padding: 5px 18px;
+  border: var(--second-color) solid 1px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.description-skill {
+  color: var(--second-color);
+}
