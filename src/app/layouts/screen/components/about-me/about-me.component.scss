@@ -1,0 +1,61 @@
+.title-about-me, .career-container {
+  color: var(--second-color);
+}
+
+.description-container p {
+  display: inline;
+}
+
+.description-container-two {
+  padding-top: 1rem;
+}
+
+.description-container-two p {
+  display: inline;
+}
+
+.description-first-part, .description-second-part {
+  color: var(--second-color);
+}
+
+.description-highlighted {
+  color: var(--fourth-color);
+}
+
+.about-me-container {
+  padding: 2rem 3rem 4rem 10rem;
+  display: flex;
+  align-items: end;
+  gap: 3.8rem;
+  h4 {
+    font-size: 1rem;
+  }
+  span {
+    font-size: 0.95rem;
+  }
+}
+
+.text-container {
+  width: 51.8%;
+}
+
+.title-about-me {
+  padding-bottom: 1rem;
+  color: var(--second-color);
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 42%;
+  p {
+    font-size: 0.90rem;
+    opacity: 0.7;
+  }
+}
+
+.career-container {
+  border-left: #EDA08A 4px solid;
+  padding-left: 2rem;
+}
