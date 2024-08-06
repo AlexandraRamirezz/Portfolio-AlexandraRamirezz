@@ -11,9 +11,9 @@ platformBrowserDynamic().bootstrapModule(AppModule)
       theme.onclick = () => {
         document.body.classList.toggle("white-theme");
         if (document.body.classList.contains("white-theme"))  {
-          theme.src = "./assets/img/sun.png";
+          theme.src = "./assets/images/sun.png";
         } else {
-          theme.src = "./assets/img/moon.png";
+          theme.src = "./assets/images/moon.png";
         }
       };
     }
@@ -59,5 +59,23 @@ platformBrowserDynamic().bootstrapModule(AppModule)
       });
       setDefaultLanguage();
     }
-  }
-);
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const emailIcon = document.getElementById('email-icon') as HTMLElement | null;
+    const copyMessage = document.getElementById('copy-message') as HTMLElement | null;
+    const email = 'ramirezdiazalexandrad@gmail.com';
+  
+    if (emailIcon && copyMessage) {
+      emailIcon.addEventListener('click', () => {
+        navigator.clipboard.writeText(email).then(() => {
+          copyMessage.style.display = 'block';
+          setTimeout(() => {
+            copyMessage.style.display = 'none';
+          }, 2000);
+        }, (err) => {
+          console.error('Could not copy text: ', err);
+        });
+      });
+    }
+  });
