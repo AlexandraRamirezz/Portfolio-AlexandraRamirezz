@@ -1,0 +1,123 @@
+.profile-container {
+  padding: 4rem 10rem;
+  background-color: var(--third-color);
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.presentation-container {
+  border: var(--second-color) solid 2px;
+  border-radius: 10px;
+  padding: 1.5rem 2.5rem;
+  width: 65%;
+}
+
+.title-greeting, .description-first-part, .description-second-part {
+  color: var(--second-color);
+}
+
+.title-greeting {
+  border-bottom: var(--second-color) solid 2px;
+  padding-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.description-p-container {
+  padding: 2rem 0;
+}
+
+.description-p-container p {
+  display: inline;
+}
+
+.description-highlighted {
+  color: var(--fourth-color);
+}
+
+.downloads-btn-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-download, .button-download-ATS {
+  background-color: #EDA08A;
+  color: #ffffff;
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  transition: transform 0.1s ease, opacity 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.icon-container {
+  padding-left: 0.8rem;
+  display: flex;
+  gap: 1.5rem;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.icon-design {
+  color: var(--second-color);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  position: relative;
+}
+
+.image-container img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 5rem;
+}
+
+.email-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.copy-message {
+  display: none;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.back-photo {
+  z-index: 1;
+}
+
+.photo {
+  z-index: 2;
+  width: auto;
+  height: 85% !important;
+  left: 28% !important;
+  top: 10% !important;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
