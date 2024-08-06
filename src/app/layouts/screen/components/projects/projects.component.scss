@@ -1,0 +1,80 @@
+.title-projects {
+  padding-bottom: 1rem;
+  color: var(--second-color);
+  padding: 3.5rem 10rem;
+  padding-bottom: 1.8rem;
+}
+
+.per-projects {
+  padding: 0 7rem;
+}
+
+.project-container {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 1rem;
+}
+
+.gif-container {
+  width: 48%;
+}
+
+.demo-gif {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.details-container {
+  background-color: var(--third-color);
+  color: var(--second-color);
+  padding: 1.3rem 1.9rem;
+  width: 52%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.title-per-project {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+
+.description-per-project {
+  padding-top: 0.8rem;
+}
+
+.items-per-skills {
+  display: flex;
+  gap: 12px;
+}
+
+.items-per-skills p {
+  display: inline;
+  color: var(--second-color);
+  padding: 5px 18px;
+  border: var(--second-color) solid 1px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 0.7rem;
+  padding-top: 2rem;
+}
+
+.button-project {
+  background-color: #EDA08A;
+  color: #ffffff;
+  padding: 0.4rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  transition: transform 0.1s ease, opacity 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
