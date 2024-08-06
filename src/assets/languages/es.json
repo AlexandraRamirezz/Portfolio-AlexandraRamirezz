@@ -28,7 +28,7 @@
     "frameworks": "Frameworks / Librerías:",
     "databases": "Bases de datos / Servicios en la nube:",
     "soft-skills": "Habilidades blandas:",
-    "adaptability": "Capacidad de adaptación",
+    "adaptability": "Adaptabilidad",
     "communication": "Comunicación asertiva",
     "problem-resolution": "Resolución de problemas",
     "teamwork": "Trabajo en equipo",
@@ -38,10 +38,10 @@
   "projects": {
     "title": "Proyectos",
     "name-one": "Pachamama's Kitchen - Plataforma web e-commerce de comidas peruanas",
-    "description-one": "Proyecto personal de una plataforma web e-commerce diseñada para la venta de platos y bebidas peruanas de un restaurante ficticio. Permite al usuario usar un carrito de compras, realizar el proceso de pedido y hacer reservas. Además, posee un buscador global de la comida que el cliente esté buscando.",
-    "name-two": "Hecho en Perú - Plataforma web e-commerce de artesanías peruanas",
-    "description-two": "Proyecto universitario de una plataforma web e-commerce con el uso de un estilo propio (sin el uso de frameworks). Permite al usuario usar filtros, un carrito de compras, comentarios por producto, proceso de compra de un producto y un chatbot interactivo.",
-    "name-three": "Hecho en Perú - Plataforma web con vista administrativa y e-commerce de artesanías peruanas",
+    "description-one": "Proyecto personal de una plataforma web e-commerce diseñada para la venta de platos y bebidas peruanas de un restaurante ficticio. Permite al usuario usar un carrito de compras, realizar el proceso de pedido y hacer reservas",
+    "name-two": "Hecho en Peru - Plataforma web e-commerce de artesanías peruanas",
+    "description-two": "Proyecto universitario de una plataforma web e-commerce con el uso de un estilo propio. Permite al usuario usar filtros, un carrito de compras, comentarios por producto, proceso de compra de un producto y un chatbot interactivo.",
+    "name-three": "Hecho en Peru - Plataforma web con vista administrativa y e-commerce de artesanías peruanas",
     "description-three": "Proyecto universitario de una plataforma web de artesanías peruanas. Se integró en ambas vistas el framework Angular. La plataforma ahora incluye las funcionalidades anteriores y, en la vista administrativa, se pueden añadir, editar, ver y eliminar productos, artesanos, lugares turísticos, regiones, etc.",
     "name-four": "HogwartsCourses - Plataforma web con vista administrativa de gestión de usuarios y cursos",
     "description-four": "Proyecto personal de una plataforma web administrativa desarrollada con Angular para la gestión de usuarios, cursos e inscripciones. Además, puedes iniciar sesión y dependiendo del rol (admin, teacher, student) una acción en particular. Se puede añadir, ver, editar y eliminar usuarios, cursos o inscripciones.",
@@ -55,6 +55,6 @@
     "button": "Ver más"
   },
   "footer": {
-    "title": "© 2024. Todos los derechos reservados"
+    "title": "© 2024. Todos los derechos reservados."
   }
 }
