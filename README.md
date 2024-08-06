@@ -6,6 +6,6 @@ This is my personal portfolio developed using Angular. It showcases my academic 
 ### Contact me
 You can reach me through the following platforms:
 
-- **LinkedIn:** [Alexandra Dayanna Ramirez Diaz](https://www.linkedin.com/in/alexandra-dayanna-ramirez-diaz)
+- **LinkedIn:** [Alexandra Dayanna Ramirez Diaz](https://www.linkedin.com/in/alexandra-ramirez-diaz)
 - **GitHub:** [AlexandraRamirezz](https://github.com/AlexandraRamirezz)
 - **Email:** ramirezdiazalexandrad@gmail.com
