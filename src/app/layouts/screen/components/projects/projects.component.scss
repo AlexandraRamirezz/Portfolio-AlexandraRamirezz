@@ -1,7 +1,7 @@
 .title-projects {
   padding-bottom: 1rem;
   color: var(--second-color);
-  padding: 3.5rem 10rem;
+  padding: 5rem 10rem;
   padding-bottom: 1.8rem;
 }
 
@@ -17,6 +17,8 @@
 
 .gif-container {
   width: 48%;
+  display: flex;
+  align-items: center;
 }
 
 .demo-gif {
@@ -56,6 +58,11 @@
   border: var(--second-color) solid 1px;
   border-radius: 5px;
   font-size: 0.85rem;
+  &:hover {
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    opacity: 0.9;
+  }
 }
 
 .button-container {

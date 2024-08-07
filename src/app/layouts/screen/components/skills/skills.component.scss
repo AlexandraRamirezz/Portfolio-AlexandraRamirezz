@@ -4,7 +4,10 @@
 }
 
 .skills-container {
-  margin: 0 7rem;
+  padding: 6.5rem 7rem 0 7rem;
+}
+
+.skills-container-info {
   padding: 2rem 3rem;
   background-color: var(--third-color);
 }
@@ -17,7 +20,7 @@
 
 .per-skill {
   display: flex;
-  gap: 35px;
+  gap: 18px;
   align-items: center;
 }
 
@@ -37,6 +40,10 @@
   border: var(--second-color) solid 1px;
   border-radius: 5px;
   font-size: 0.85rem;
+  &:hover {
+    background-color: var(--second-color);
+    color: var(--primary-color);
+  }
 }
 
 .description-skill {
