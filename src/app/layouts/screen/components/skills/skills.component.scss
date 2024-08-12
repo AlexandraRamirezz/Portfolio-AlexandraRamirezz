@@ -15,37 +15,37 @@
 .skills-all {
   display: flex;
   flex-direction: column;
-  gap: 20px
+  gap: 40px
+}
+
+.description-skill {
+  color: var(--second-color);
 }
 
 .per-skill {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
   align-items: center;
 }
 
-.per-skill p {
-  display: inline;
-}
-
 .items-per-skills {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
 .items-per-skills p {
-  display: inline;
+  display: inline-block;
   color: var(--second-color);
   padding: 5px 18px;
   border: var(--second-color) solid 1px;
   border-radius: 5px;
   font-size: 0.85rem;
-  &:hover {
-    background-color: var(--second-color);
-    color: var(--primary-color);
-  }
+  white-space: nowrap;
 }
 
-.description-skill {
-  color: var(--second-color);
+.items-per-skills p:hover {
+  background-color: var(--second-color);
+  color: var(--primary-color);
 }

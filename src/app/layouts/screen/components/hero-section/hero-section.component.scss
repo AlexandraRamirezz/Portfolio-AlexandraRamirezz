@@ -1,15 +1,16 @@
 .profile-container {
-  padding: 4rem 10rem;
+  padding: 4rem 7rem 4rem 7rem;
   background-color: var(--third-color);
   margin-bottom: 1rem;
   display: flex;
+  gap: 6rem;
 }
 
 .presentation-container {
   border: var(--second-color) solid 2px;
   border-radius: 10px;
   padding: 1.5rem 2.5rem;
-  width: 65%;
+  width: 100%;
 }
 
 .title-greeting, .description-first-part, .description-second-part {
@@ -72,21 +73,6 @@
   }
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
-  position: relative;
-}
-
-.image-container img {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 5rem;
-}
-
 .email-icon-container {
   position: relative;
   display: inline-block;
@@ -106,6 +92,19 @@
   white-space: nowrap;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  position: relative;
+}
+
+.image-container img {
+  height: 100%;
+  position: absolute;
+}
+
 .back-photo {
   z-index: 1;
 }
@@ -114,10 +113,65 @@
   z-index: 2;
   width: auto;
   height: 85% !important;
-  left: 28% !important;
-  top: 10% !important;
   transition: transform 0.5s ease, opacity 0.3s ease;
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+@media (max-width: 1412px) {
+  .profile-container {
+    padding: 4rem 8rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1323px) {
+  .profile-container {
+    padding: 4rem 9rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1244px) {
+  .profile-container {
+    padding: 4rem 10.5rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1266px) {
+  .profile-container {
+    gap: 7rem !important;
+  }
+}
+
+@media (max-width: 1160px) {
+  .profile-container {
+    padding: 4rem 11rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1140px) {
+  .profile-container {
+    gap: 8rem !important;
+    padding: 4rem 12.5rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1128px) {
+  .profile-container {
+    gap: 12rem !important;
+    padding: 4rem 16rem 4rem 7rem !important;
+  }
+}
+
+@media (max-width: 1091px) {
+  .profile-container {
+    flex-direction: column;
+    padding: 4rem 7rem !important;
+    gap: 2.3rem !important;
+  }
+
+  .image-container {
+    height: 23rem;
+    width: auto !important;
   }
 }

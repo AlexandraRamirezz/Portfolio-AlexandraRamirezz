@@ -23,9 +23,10 @@
 }
 
 .about-me-container {
-  padding: 5.2rem 3rem 0 10rem;
+  padding: 5.2rem 10rem 0 10rem;
   display: flex;
-  align-items: end;
+  align-items: center;
+  justify-content: space-around;
   gap: 3.8rem;
   h4 {
     font-size: 1rem;
@@ -58,4 +59,33 @@
 .career-container {
   border-left: #EDA08A 4px solid;
   padding-left: 2rem;
+}
+
+@media (max-width: 1173px) {
+  .about-me-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .education-container {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1026px) {
+  .education-container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 684px) {
+  .about-me-container {
+    padding: 5.2rem 5rem 0 5rem;
+  }
 }

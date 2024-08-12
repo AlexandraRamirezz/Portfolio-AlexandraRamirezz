@@ -37,27 +37,27 @@
   },
   "projects": {
     "title": "Proyectos",
-    "name-one": "Pachamama's Kitchen - Plataforma web e-commerce de comidas peruanas",
+    "name-one": "Pachamama's Kitchen - Plataforma web de comercio electrónico de comidas peruanas",
     "description-one": "Proyecto personal de una plataforma web e-commerce diseñada para la venta de platos y bebidas peruanas de un restaurante ficticio. Permite al usuario usar un carrito de compras, realizar el proceso de pedido y hacer reservas",
-    "name-two": "Hecho en Peru - Plataforma web e-commerce de artesanías peruanas",
+    "name-two": "Hecho en Peru - Plataforma web de comercio electrónico de artesanías peruanas",
     "description-two": "Proyecto universitario de una plataforma web e-commerce con el uso de un estilo propio. Permite al usuario usar filtros, un carrito de compras, comentarios por producto, proceso de compra de un producto y un chatbot interactivo.",
-    "name-three": "Hecho en Peru - Plataforma web con vista administrativa y e-commerce de artesanías peruanas",
+    "name-three": "Hecho en Peru - Plataforma web con vista administrativa y comercio electrónico de artesanías peruanas",
     "description-three": "Proyecto universitario de una plataforma web de artesanías peruanas. Se integró en ambas vistas el framework Angular. La plataforma ahora incluye las funcionalidades anteriores y, en la vista administrativa, se pueden añadir, editar, ver y eliminar productos, artesanos, lugares turísticos, regiones, etc.",
     "name-four": "HogwartsCourses - Plataforma web con vista administrativa de gestión de usuarios y cursos",
     "description-four": "Proyecto personal de una plataforma web administrativa desarrollada con Angular para la gestión de usuarios, cursos e inscripciones. Además, puedes iniciar sesión y dependiendo del rol (admin, teacher, student) una acción en particular. Se puede añadir, ver, editar y eliminar usuarios, cursos o inscripciones.",
-    "name-five": "MangaWorld - Plataforma web e-commerce de cómics japoneses",
+    "name-five": "MangaWorld - Plataforma web de comercio electrónico de cómics japoneses o mangas",
     "description-five": "Proyecto personal de una plataforma web e-commerce diseñada para la compra de cómics japoneses. Los usuarios pueden utilizar filtros avanzados y un buscador. La plataforma cuenta con un carrito de compras donde se guardan los productos seleccionados, incluso si el usuario cierra el navegador (localStorage).",
     "name-six": "BetterOption - Plataforma web de ofertas inmobiliarias",
     "description-six": "Landing page web de una plataforma diseñada para facilitar la búsqueda y adquisición de propiedades inmobiliarias. Cada inmueble tiene una página de detalle, cuenta con filtros estáticos y un paginator estático. Presenta formularios para la solicitud de contacto al proveedor y en el contacto."
   },
   "designs": {
     "title": "Diseños",
-    "button": "Ver más"
+    "overlay": "Ver más <i class='fa-solid fa-link'></i>"
   },
   "footer": {
     "title": "© 2024. Todos los derechos reservados."
   },
   "message": {
-    "copy": "Copiado!"
+    "copy": "¡Copiado!"
   }
 }

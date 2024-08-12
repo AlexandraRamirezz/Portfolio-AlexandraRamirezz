@@ -37,22 +37,22 @@
   },
   "projects": {
     "title": "Projects",
-    "name-one": "Pachamama's Kitchen - E-commerce web platform for Peruvian food",
+    "name-one": "Pachamama's Kitchen - E-commerce web platform for peruvian food",
     "description-one": "Personal project of an e-commerce web platform designed for selling dishes and drinks from a fictional Peruvian restaurant. It allows the user to use a shopping cart, go through the ordering process and make reservations.",
-    "name-two": "Hecho en Peru - E-commerce web platform for Peruvian crafts",
+    "name-two": "Hecho en Peru - E-commerce web platform for peruvian crafts",
     "description-two": "University project of an e-commerce web platform using a custom style. It allows the user to use filters, a shopping cart, product comments, the process of purchasing a product, and an interactive chatbot.",
-    "name-three": "Hecho en Peru - Web platform with administrative view and e-commerce for Peruvian crafts",
+    "name-three": "Hecho en Peru - Web platform with administrative view and e-commerce for peruvian crafts",
     "description-three": "University project of a web platform for Peruvian crafts. The Angular framework was integrated into both views. The platform now includes the previous functionalities, and in the administrative view, products, artisans, tourist places, regions, etc. can be added, edited, viewed, and deleted.",
     "name-four": "HogwartsCourses - Web platform with an administrative view for user and course management",
     "description-four": "Personal project of an administrative web platform developed with Angular for managing users, courses, and enrollments. You can also log in, and depending on the role (admin, teacher, student), perform a specific action. Users, courses, or enrollments can be added, viewed, edited, and deleted.",
-    "name-five": "MangaWorld - E-commerce web platform for Japanese comics",
+    "name-five": "MangaWorld - E-commerce web platform for japanese comics or mangas",
     "description-five": "Personal project of an e-commerce web platform designed for purchasing Japanese comics. Users can use advanced filters and a search engine. The platform features a shopping cart where selected products are saved, even if the user closes the browser (localStorage).",
     "name-six": "BetterOption - Real estate offer web platform",
     "description-six": "Web landing page of a platform designed to facilitate the search and acquisition of real estate properties. Each property has a detail page, features static filters, and a static paginator. It presents forms for contacting the provider and in the contact section."
   },
   "designs": {
     "title": "Designs",
-    "button": "See more"
+    "overlay": "See more <i class='fa-solid fa-link'></i>"
   },
   "footer": {
     "title": "© 2024. All rights reserved."
