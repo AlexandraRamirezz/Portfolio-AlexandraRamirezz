@@ -181,6 +181,12 @@
   }
 }
 
+@media (max-width: 731px) {
+  .title-greeting {
+    text-align: center;
+  }
+}
+
 @media (max-width: 684px) {
   .profile-container {
     padding: 3rem 2rem 3rem 2rem !important;

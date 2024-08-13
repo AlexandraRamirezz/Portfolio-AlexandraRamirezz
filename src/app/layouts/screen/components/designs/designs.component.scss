@@ -61,7 +61,7 @@
 }
 
 .overlay-text {
-  color: var(--second-color);
+  color: #ffffff;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -84,6 +84,12 @@
   .per-designs, .design-container, .img-container, .design-image {
     width: 100% !important;
     height: 100% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-container, .overlay {
+    opacity: 1;
   }
 }
 
