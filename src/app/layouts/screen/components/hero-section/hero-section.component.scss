@@ -40,6 +40,7 @@
   justify-content: start;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .button-view, .button-view-ATS {
@@ -151,15 +152,20 @@
 
 @media (max-width: 1140px) {
   .profile-container {
-    gap: 8rem !important;
+    gap: 8.5rem !important;
     padding: 4rem 12.5rem 4rem 7rem !important;
   }
 }
 
 @media (max-width: 1128px) {
   .profile-container {
-    gap: 12rem !important;
+    gap: 14rem !important;
     padding: 4rem 16rem 4rem 7rem !important;
+  }
+
+  .image-container {
+    height: 22rem;
+    width: auto !important;
   }
 }
 
@@ -170,8 +176,26 @@
     gap: 2.3rem !important;
   }
 
+  .view-btn-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 684px) {
+  .profile-container {
+    padding: 3rem 2rem 3rem 2rem !important;
+  }
+}
+
+@media (max-width: 513px) {
+  .icon-container {
+    padding-right: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
   .image-container {
-    height: 23rem;
+    height: 18.5rem;
     width: auto !important;
   }
 }

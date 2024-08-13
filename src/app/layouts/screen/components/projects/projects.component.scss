@@ -37,7 +37,7 @@
 }
 
 .title-per-project {
-  font-weight: 400;
+  font-weight: 510;
   font-size: 1.2rem;
   padding-bottom: 0.8rem;
 }
@@ -50,6 +50,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  padding: 0.15rem 0;
 }
 
 .items-per-skills p {
@@ -102,5 +103,29 @@
 
   .details-container {
     width: 100%;
+  }
+
+  .title-per-project {
+    text-align: center;
+  }
+
+  .items-per-skills {
+    justify-content: center;
+    padding: 0.3rem 0;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 684px) {
+  .title-projects {
+    padding: 5rem 5rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .per-projects {
+    padding: 0 2rem;
   }
 }

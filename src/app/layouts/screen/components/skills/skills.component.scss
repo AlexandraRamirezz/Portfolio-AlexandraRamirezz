@@ -4,7 +4,7 @@
 }
 
 .skills-container {
-  padding: 6.5rem 7rem 0 7rem;
+  padding: 6.4rem 7rem 0 7rem;
 }
 
 .skills-container-info {
@@ -48,4 +48,10 @@
 .items-per-skills p:hover {
   background-color: var(--second-color);
   color: var(--primary-color);
+}
+
+@media (max-width: 684px) {
+  .skills-container {
+    padding: 6.5rem 2rem 0 2rem;
+  }
 }

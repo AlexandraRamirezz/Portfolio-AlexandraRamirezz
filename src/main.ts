@@ -48,7 +48,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
       const defaultLanguage = 'es';
       await changeLanguage(defaultLanguage);
     };
-
+    
     if (languagesElement) {
       languagesElement.addEventListener("click", (e: Event) => {
         const target = e.target as HTMLElement;
@@ -65,7 +65,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
     const emailIcon = document.getElementById('email-icon') as HTMLElement | null;
     const copyMessage = document.getElementById('copy-message') as HTMLElement | null;
     const email = 'ramirezdiazalexandrad@gmail.com';
-  
+    
     if (emailIcon && copyMessage) {
       emailIcon.addEventListener('click', () => {
         navigator.clipboard.writeText(email).then(() => {
@@ -78,4 +78,35 @@ platformBrowserDynamic().bootstrapModule(AppModule)
         });
       });
     }
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const closeMenu = document.getElementById('close-menu');
+    const navbar = document.getElementById('navbar');
+    
+    function toggleMenu() {
+      if (window.innerWidth <= 860) {
+        if (navbar && hamburgerMenu && closeMenu) {
+          hamburgerMenu.addEventListener('click', function () {
+            navbar.style.display = 'flex';
+            hamburgerMenu.style.display = 'none';
+            closeMenu.style.display = 'flex';
+          });
+          closeMenu.addEventListener('click', function () {
+            navbar.style.display = 'none';
+            closeMenu.style.display = 'none';
+            hamburgerMenu.style.display = 'flex';
+          });
+        }
+      } else {
+        if (navbar && hamburgerMenu && closeMenu) {
+          navbar.style.display = 'flex';
+          hamburgerMenu.style.display = 'none';
+          closeMenu.style.display = 'none';
+        }
+      }
+    }
+    window.addEventListener('resize', toggleMenu);
+    toggleMenu();
   });

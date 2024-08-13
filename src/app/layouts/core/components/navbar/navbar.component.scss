@@ -1,6 +1,5 @@
 .menu-list-items {
   background-color: var(--fifth-color);
-  display: flex;
   gap: 30px;
   padding: 0.7rem;
   padding-top: 2.8rem;
@@ -10,6 +9,7 @@
   top: -35px;
   right: 5%;
   z-index: 100;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -24,10 +24,11 @@
   color: var(--second-color);
   border-radius: 6px;
   cursor: pointer;
-  &:hover {
-    background-color: #EDA08A;
-    color: #ffffff;
-  }
+}
+
+.menu-list-item:hover {
+  background-color: #EDA08A;
+  color: #ffffff;
 }
 
 .menu-list-item a {
@@ -53,11 +54,12 @@
   padding: 5px 12px;
   border-radius: 20px;
   transition: background-color 0.3s ease;
-  &.active {
-    background-color: #EDA08A;
-    padding: 5px 12px;
-    border-radius: 20px;
-  }
+}
+
+.languages-item.active {
+  background-color: #EDA08A;
+  padding: 5px 12px;
+  border-radius: 20px;
 }
 
 .button-style {
@@ -66,11 +68,107 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
-    width: 20px;
+}
+
+.button-style img {
+  width: 20px;
+}
+
+.hamburger-icon, .close-icon {
+  color: var(--second-color);
+  background-color: var(--third-color);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 110;
+  display: none;
+}
+
+.theme-mode {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .menu-list-items {
+    width: 100%;
+    padding: 0.7rem;
+    top: 2.2rem;
+    right: 0;
+    background-color: var(--fifth-color);
+  }
+
+  .hamburger-icon, .close-icon {
+    display: block;
+    background-color: var(--fifth-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+  }
+
+  .close-icon {
+    background-color: var(--fifth-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+    padding-top: 2.4rem;
+    top: 20px;
+    width: 100%;
+  }
+
+  .fa-bars {
+    margin-right: 0.5rem;
+  }
+
+  .fa-times {
+    margin-right: 0.7rem;
+  }
+
+  .languages, .theme-mode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-// responsive navbar hamburguer
-@media (max-width: 855px) {
+@media (max-width: 792px) {
+  .menu-list-items {
+    gap: 9px;
+  }
+}
+
+@media (max-width: 630px) {
+  .menu-list-items {
+    gap: 7px;
+  }
+
+  #navbar {
+    flex-direction: column;
+  }
+
+  #languages {
+    margin: 0.6rem 0;
+  }
+
+  .theme-mode {
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+  }
 }
